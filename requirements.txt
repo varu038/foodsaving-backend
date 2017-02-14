@@ -6,7 +6,7 @@
 #
 amqp==2.1.3               # via kombu
 billiard==3.5.0.2         # via celery
-celery==4.0.1             # via django-influxdb-metrics
+celery[redis]==4.0.1
 coreapi==2.1.1            # via django-rest-swagger, openapi-codec
 coverage==4.2
 django-anymail==0.5
