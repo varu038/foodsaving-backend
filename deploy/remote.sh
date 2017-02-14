@@ -32,8 +32,8 @@ DATABASES = {
     }
 }
 DEBUG = False
-ALLOWED_HOSTS = ['fstool.yunity.org', 'mvp-proposal.yunity.org', 'mvp-design.yunity.org']
-HOSTNAME = 'https://fstool.yunity.org'
+ALLOWED_HOSTS = ['foodsaving.world', 'fstool.yunity.org', 'mvp-proposal.yunity.org', 'mvp-design.yunity.org']
+HOSTNAME = 'https://foodsaving.world'
 STATIC_ROOT = '${deploy_dir}/${backend_dir}/static/'
 
 DEFAULT_FROM_EMAIL = "fstool@yunity.org"

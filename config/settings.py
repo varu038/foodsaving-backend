@@ -48,16 +48,16 @@ INSTALLED_APPS = (
     'timezone_field',
 
     # Application
-    'yunity',
-    'yunity.userauth',
-    'yunity.base',
-    'yunity.users',
-    'yunity.conversations',
-    'yunity.groups',
-    'yunity.stores',
+    'foodsaving',
+    'foodsaving.userauth',
+    'foodsaving.base',
+    'foodsaving.users',
+    'foodsaving.conversations',
+    'foodsaving.groups',
+    'foodsaving.stores',
 
     # removed app, it's just here that the migration can run
-    'yunity.walls',
+    'foodsaving.walls',
 )
 
 
@@ -71,7 +71,7 @@ REST_FRAMEWORK = {
 }
 
 MIDDLEWARE_CLASSES = (
-    'yunity.utils.session.RealtimeClientMiddleware',
+    'foodsaving.utils.session.RealtimeClientMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
